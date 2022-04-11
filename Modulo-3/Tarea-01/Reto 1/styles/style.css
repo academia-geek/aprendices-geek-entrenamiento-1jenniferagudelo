@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.contenedorTitulo{
+    font-family:'Jim Nightshade', cursive;
+    background-color: rgba(251, 251, 251, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: relative;
+    top: 61px;
+    width: 100%;
+
+}
+#fondo{
+    background-image: url("../images/PastorAleman3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#Titulo{
+    color: #fff;
+    display: flex;
+    width: 110%;
+}
+
+#Titulo h1{
+    float: left;
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin: auto;
+    font-family:'Jim Nightshade', cursive;
+    font-size: 22px;
+}
+
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149, 164, 165, 0.5);
+    padding: 5px;
+}
+
+#Cabeza h1{
+    float: left;
+}
+
+.MENU{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+
+.MENU li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.MENU li ul{
+    display: none;
+    position: absolute;
+}
+
+.MENU li:hover ul{
+    display: block;
+}
+
+li ul li{
+    height: -145;
+    top: 0px;
+    padding: 5px 10px;
+}
+
+.MENU a{
+    color:white;
+    text-align: none;
+    padding: 5px 10px;
+}
+
+.MENU a:hover {
+    background-color: rgba(251, 251, 251, 0.5);
+}
+
+.ContenedorPrincipal{
+    font-weight: 60px;
+    font-size: 20px;
+}
+
+.ContenedorPrincipal a{
+    color: white;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px;
+}
+
+#principal{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-family: op;
+    position:relative;
+    font-family:'Jim Nightshade', cursive;
+    position: absolute;
+    padding: 80px;
+    top: 20%;
+    column-count:2;
+}
+  
+main{
+    margin-top: 10px;
+    margin-left: 23px;
+}
+table img{
+    width: 650px;
+    height: 350px;
+}
+
+table video{
+    width: 650px;
+    height: 350px;
+}
+
