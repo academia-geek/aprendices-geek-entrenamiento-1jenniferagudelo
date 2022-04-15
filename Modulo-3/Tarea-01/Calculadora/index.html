@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Calculadora</title>
+</head>
+<body> 
+
+    <section id="fondo">
+        <header>
+            <h1 class="Titulo">CALCULADORA DE PROPINAS</h1>
+
+            <div class="Menu"><br>
+                <h2>Total de cuenta</h2>
+                <input type="number" id="cuenta"><br><br>
+                
+                <h2>Porcentaje de propina</h2>
+                <input type="number" id="propina"><br><br>
+                
+                <button id="Boton" onclick="CalcularTotal()">Calcular</button><br><br><br><hr>
+
+                <div class="esconder" id="mostrar">
+                <div id="tituloOculto"><b>Resultado</b></div>
+
+                    <div id="tituloCuenta"><b>Total de cuenta</b></div> 
+                     <span id="resultadoCuenta"></span> 
+
+                     <div id="tituloPropina"><b>Total de propina</b></div> 
+                     <span id="resultadoPropina"></span> 
+
+                     <div id="tituloPago"><b>Total a transferir</b></div> 
+                     <span id="resultadoPago"></span> 
+
+                     <div id="BotonRefrescar"><button id="Boton2">Refrescar</button></div>
+                    </div>
+             </div>
+        </header>
+    </section>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./javascript/script.js"></script>
+</body>
+</html>

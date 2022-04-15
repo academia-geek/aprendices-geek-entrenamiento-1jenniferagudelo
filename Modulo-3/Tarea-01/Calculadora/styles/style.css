@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+*{padding: 0;
+  margin: 0;}
+
+body{font-family: 'Grape Nuts', cursive;
+     background-image: url(../images/Colores.jpg);}
+
+.Titulo{text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 40px;}
+
+.Menu{text-align: center;
+    color: #e9adad;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    background-color:rgb(255, 248, 248);
+    border: rgb(129, 13, 13) 5px dotted;}
+
+#Fondo{background-image: url(../images/Colores.jpg);
+    height: 90vh;}
+
+.esconder{display: none;}
+
+#tituloOculto{border-radius: 40px;}
+
+#tituloCuenta{ float: none;
+    width:300px;
+    font-size: medium;}
+
+#tituloPropina{ float: none;
+    width:300px;
+    font-size: medium;}
+
+
+#tituloPago{ float: none;
+    width:300px;
+    height: 25px;
+    font-size: medium;}
+
+#Resultado{top: 100px;
+    font-size: medium;}
+
+#BotonRefrescar{height: 25px;
+  left: 55px;
+  position: relative;
+  top: -10px;
+  width: 190px;}
+
+.insertar{float: none;
+  font-size: 25px;}
