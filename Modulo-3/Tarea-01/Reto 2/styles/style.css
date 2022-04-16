@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedorTitulo{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 47px;
+    position: relative;
+    top: 80px;
+    left: 335px ;
+}
+
+#fondo{
+    background-image: url("../imagenes/Imagen1.jpg");
+    background-size: 1538px;
+    height: 121vh;
+    position: relative;
+    top: 70px;
+    width: 100%;
+}
+
+#Titulo{
+    color: #fff;
+    display: flex;
+}
+
+#click1{
+    background-color: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    position: relative;
+    top: -55px;
+    left: 220px;
+}
+
+#click1:hover{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    
+}
+
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    height: 50px;
+    padding: 10px;
+    top: 0;
+}
+
+.MENU{
+    font-size: small;
+    float: left;
+    margin-top: -10px;
+    margin-left: 5px;
+    display: block;
+    font-size: 12px;
+}
+
+.MENU li{
+    list-style: none;
+    float: left;
+    margin: 30px;
+    margin-left: 8px;
+}
+
+.MENU li ul{
+    display: none;
+    position: absolute;
+}
+
+.MENU li:hover ul{
+    display: block;
+}
+
+.MENU a{
+    color:white;
+    text-align: none;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.parteMedia1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin: 15%;
+    width: auto;
+    column-count:3;
+    position: absolute;
+    padding: 100px;
+    top: 60%;
+    left: -40px;
+    text-align: center;
+}
+
+.Titulo1{
+    font-size: 30px;
+}
+
+#tabla1{
+    font-size: 15px;
+    float: left;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    width: 210px;
+  }
+   
+#tabla2{
+    font-size: 15px;
+    float: left;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    width: 210px;                                                       
+  }
+  
+#tabla3{
+    font-size: 15px;
+    float: right;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    width: 210px;
+  }
+
+#imagen1{
+    max-width: 17%;
+    max-height: 17%;
+}
+
+#imagen2{
+    max-width: 26%;
+    max-height: 26%;
+}
+
+#imagen3{
+    max-width: 16%;
+    max-height: 16%;
+}
+/* img {
+    max-width: 20%;
+    max-height: 20%;
+   } */
+
+#click2{
+    background-color: white;
+    color: rgb(10, 10, 10);
+    border: 2px solid #000000;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: 75%;
+    left: 0px;
+}
+
+#click2:hover{
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+}
+
+#click3{
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: 75%;
+    left: 0px;
+}
+
+#click3:hover{
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 254, 254); 
+}
+
+#click4{
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: 75%;
+    left: 0px;
+}
+
+#click4:hover{
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+}
+
+.parteFinal{
+    position: relative;
+    font-size: 12px;
+    top: 900px;
+    background: #333;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+  

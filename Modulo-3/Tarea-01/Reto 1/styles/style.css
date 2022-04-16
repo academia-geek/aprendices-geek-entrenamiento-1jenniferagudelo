@@ -11,13 +11,13 @@ body{
 
 .contenedorTitulo{
     font-family:'Jim Nightshade', cursive;
-    background-color: rgba(251, 251, 251, 0.3);
+    background-color: rgba(251, 251, 251, 0.1);
     color: rgb(255, 255, 255);
     font-size: 40px;
     position: relative;
     top: 61px;
-    width: 100%;
-
+    width: 200%;
+    display: flex;
 }
 #fondo{
     background-image: url("../images/PastorAleman3.jpg");
@@ -30,7 +30,6 @@ body{
 #Titulo{
     color: #fff;
     display: flex;
-    width: 110%;
 }
 
 #Titulo h1{
@@ -124,9 +123,21 @@ main{
     margin-top: 10px;
     margin-left: 23px;
 }
+
 table img{
     width: 650px;
     height: 350px;
+}
+
+
+#imagenes1{
+    width: 650px;
+    height: 350px;
+}
+
+#imagenes2{
+    margin-top: 0px;
+    margin-left: -3px;
 }
 
 table video{
@@ -134,3 +145,7 @@ table video{
     height: 350px;
 }
 
+#videos{
+    margin-top: 10px;
+    margin-left: -3px;
+}
