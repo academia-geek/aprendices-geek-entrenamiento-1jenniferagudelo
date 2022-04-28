@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.linea{
+    width: 100%;
+    height: 50%;
+    left: 0%;
+    right: 0%;
+    top: 0%;  
+}
+.titulo{
+    font-family: 'Roboto Condensed';
+    padding: 0px;
+    color: white;
+    font-style: normal;
+    font-weight: 100%;
+    font-size: 0.8rem;
+    line-height: 100%;
+    align-items: flex-start;
+    position: absolute;
+    left: 7%;
+    top: 25%;
+}
+
+.textoImagen{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 7%;
+    top: 2%;
+    flex: none;
+}
+
+.base{
+    display: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+    background-color: #262729;
+    height: 100vh;
+    
+    width: 100%;
+    height: 50%;
+    left: 0%;
+    right: 0%;
+    top: 50%;
+}
+
+
+.parrafo{
+    position: absolute;
+    left: 7%;
+    top: 40%;
+    background-color: #262729;
+    font-family: op;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.Boton{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 16px 32px; 
+    position: absolute; 
+    width: 80%;
+    height: 8%;
+    left: 6%;
+    top: 60%; 
+    background: #1B90FC;
+    border-radius: 90px;
+}
+
+/* form{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0%;
+    top: 557px;
+    background-color: #FFFFFF;
+    clip-path: polygon(0% 100%, 100% 14%, 100% 100%, 0%, 100%);;
+} */
+
+@media screen and (min-width:650px){
+    .base{
+        top: 100%;
+    }
+    .base{
+        top: 92%;
+    }
+    /* form{
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        left: 0%;
+        top: 125%;
+        background-color: #FFFFFF;
+        clip-path: polygon(100% 64%, 0% 100%, 100% 100%);
+    } */
+}
+@media screen and (min-width:950px){
+    .linea{
+        position: relative;
+        width: 100%;
+        height: 50%;
+        left: 0%;
+        right: 0%;
+        top: 0%;  
+}
+    .base{
+        clip-path: polygon(0 0, 52% 0, 64% 100%, 0% 100%);
+        background-color: #262729;
+        width: 75%;
+        height: 100%;
+        top: 0%;
+    }
+    .titulo{
+        font-weight: 100%;
+        font-size: 1.5rem;
+        line-height: 100%;
+        align-items: flex-start;
+        position: absolute;
+        width: 50%;
+        height: 0%;
+        left: 7%;
+        top: 35%;
+    }
+    .textoImagen{
+        position: absolute;
+        width: 20%;
+        height: 8%;
+        left: 7%;
+        top: 24%;
+        flex: none;
+    }
+    .parrafo{
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        left: 7%;
+        top: 42%;
+        background-color: #262729;
+        font-style: normal;
+        font-size: 0.9rem;
+        line-height: 15px;
+    }
+    .Boton{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 16px 32px; 
+    position: absolute; 
+    font-size: 1.5rem;
+    width: 35%;
+    height: 5%;
+    left: 6%;
+    top: 50%; 
+    background: #1B90FC;
+    border-radius: 90px;
+}
+form{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0%;
+    top: 80%;
+    background-color: #FFFFFF;
+    clip-path: polygon(100% 20%, 0% 100%, 100% 100%);
+}
+}
+@media screen and (min-width:950px){}

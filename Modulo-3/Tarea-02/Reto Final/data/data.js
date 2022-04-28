@@ -1,0 +1,111 @@
+export let videos = [
+    {
+                id: 1,
+                inicio: "completo",
+                categoria:"music",
+                video: "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                usuario:"../caratula/destripando2.webp",
+                nombre: "Ares | Destripando la Historia",
+                canal: "Pascu y Rodri",
+                vistas: "23.746.070 visualizaciones",
+                fecha:"12 may 2021",
+
+            },
+            {
+                "id": 2,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+            {
+                "id": 3,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+            {
+                "id": 4,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+            {
+                "id": 5,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+            {
+                "id": 6,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+            {
+                "id": 7,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+            {
+                "id": 8,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+            {
+                "id": 9,
+                "type": "all",
+                "category":"music",
+                "cover": "../Videos/y2mate.com - Ares  Destripando la Historia_v720P.mp4",
+                "avatar":"../images/unnamed.jpg",
+                "name": "Ares | Destripando la Historia",
+                "channe1": "Pascu y Rodri",
+                "views": "23.746.070 visualizaciones",
+                "publicacion":"12 may 2021",
+
+            },
+
+]
