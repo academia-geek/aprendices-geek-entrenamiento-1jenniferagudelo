@@ -6,20 +6,22 @@ body {
     background-color:#181818;
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 .logo {
     position: absolute;
-    left: 0%;
-    width: 40%;
+    left: 5%;
+    top: 2%;
+    width: 45%;
 }
 
-#btn{
+/* #btn{
     width: 30%;
     padding: 3%;
     border-radius: 10px;
-    padding-top: 2%;
-    padding-left: 42%;
+    padding-top: 4%;
+    padding-left: 55%;
 }
 
 .buscador{
@@ -28,20 +30,21 @@ body {
     border: 1px solid #181818;
     width: 75%;
     padding-left: 5%;
-}
+} */
 
-/* #btn1{width: 30%;
+/* #btn1{
+    background-color: #373737;
+    width: 20%;
     padding: 3%;
     border-radius: 10px;
     padding-top: -25px;
-    padding-left: 0%;}
+    padding: left 90px;%;}
 
 .btn{
     padding-left: 5%;
     width: 0%;
     height: 0%;
 } */
-
 
 
 button{
@@ -54,27 +57,30 @@ button{
     font-size: 70%;
     text-align: center;
 }
+.boton{
+    padding-top: 15%;
+}
 .boton1{
-    width: 14%;
+    width: 18%;
     height: 4%;
-    left: 2%;
+    left: 3%;
     top: 6%;
     
 }
 .boton2{
-    width: 17%;
+    width: 21%;
     height: 4%;
-    left: 21%;
+    left: 20%;
     top: 6%;
 }
 .boton3{
-    width: 24%;
+    width: 31%;
     height: 4%;
     left: 44%;
     top: 6%;
 }
 .boton4{
-    width: 20%;
+    width: 25%;
     height:4%;
     left: 72%;
     top: 6%;
@@ -82,8 +88,10 @@ button{
 
 .video{
     width: 85%;
-    padding-left: 3%;
-    padding-right: 3%;
+    height: 80%;
+    padding-left: 14%;
+    padding-right: 14%;
+    
 }
 #cover{
     padding-left: 0%;
@@ -95,25 +103,25 @@ button{
 
 .posicion{
     float: inherit;
-    padding-left: 2%;
+    padding-left: 13%;
     padding-top: 1%;
 }
 
 .icono{
     float: left;
-    width: 8%;
+    width: 10%;
     border: 1px solid #f7e8e8;
     box-sizing: border-box;
     border-radius: 44px;
 }
 
 .descripcionTitulo{
-    text-align: justify;
     letter-spacing: 0rem;
     font-size: 1rem;
     line-height: 1rem;
-    padding-left: 15%;
+    padding-left: 25%;
     padding-right: 15%;
+    padding-top: 0%;
     color: white;
     
 }
@@ -122,10 +130,49 @@ button{
     color: white;
     line-height: 0.3rem;
     text-align: center;
-    padding-right: 20%;
-    padding-right: 20%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
 }
 
+.container{
+    width: 100%;
+    height: 100px;
+}
+/* @media (min-width:565px){ */
+    /* .video{
+        float: left;
+        display: table;
+        width: 30%;
+        padding-left: 20%;
+        padding-right: 20%;
+   }
+   .posicion{
+       display: table;
+       padding-left: 30%;
+       padding-top: 0%;
+    }
 
-
-
+    .icono{
+        float: left;
+        display: table;
+        width: 40%;
+    }
+    .descripcionTitulo{
+        letter-spacing: 0rem;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding-left: 20%;
+        padding-right: 15%;
+        padding-top: 0%;
+        color: white;
+        
+    } */
+    
+    /* .descripcion{
+        color: white;
+        line-height: 0.3rem;
+        text-align: center;
+        padding-right: 0.5%;
+        padding-left: 0.5%;
+    }
+} */
