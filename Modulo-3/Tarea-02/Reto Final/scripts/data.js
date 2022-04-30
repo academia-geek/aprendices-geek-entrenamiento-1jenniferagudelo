@@ -1,5 +1,5 @@
 export let videos = [
-    {
+    { 
                 id: 1,
                 inicio: "todo",
                 categoria:"music",
@@ -367,7 +367,7 @@ export let videos = [
                 nombre: "EL VERDADERO MOTIVO PARA APRENDER A PROGRAMAR",
                 canal: "Soy Dalto",
                 vistas: "111.953 visualizaciones",
-                fecha:"08 ago 2021",
+                fecha:"8 ago 2021",
             },
             
 ]

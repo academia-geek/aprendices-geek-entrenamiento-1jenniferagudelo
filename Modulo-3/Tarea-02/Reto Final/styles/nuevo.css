@@ -9,25 +9,150 @@ body {
     box-sizing: border-box;
 }
 
-#Cabeza{
+.container-image{
     display: flex;
     justify-content: center;
-}
-
-.logo {
-    margin-top: 15px;
-    width: 40%;
-}
-#nuevoContenido{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%
-}
-.Formulario1{
-    display: flex;
     align-items: center;
-    justify-content: center;
-
+  }
+  
+.image{
+    width: 50px;
+    background-color: #181818;
+  }
+  
+.image-title{
+    font-size: 20px;
+    font-style: revert;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .video{
+    display: contents;
+    width: 90%;
+    height: 80%;
+    
 }
+#lugar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 5%;
+}
+#cover{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 5%;
+    color: white;
+    width: 89%;
+}
+
+.posicion{
+    float: inherit;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.icono{
+    float: left;
+    width: 15%;
+    height: 20%;
+    border: 1px solid #f7e8e8;
+    box-sizing: border-box;
+    border-radius: 44px;
+}
+
+.descripcionTitulo{
+    letter-spacing: 0rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-left: 25%;
+    padding-right: 15%;
+    padding-top: 0%;
+    color: white;
+    
+}
+
+.descripcion{
+    text-align: left;
+    color: white;
+    line-height: 0.1rem;
+    padding-right: 5%;
+    padding-left: 25%;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+}
+.subtitulo{
+    color: white;
+    padding-top: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.videos{
+    display: inline;
+    width: 90%;
+    height: 80%;
+}
+#caratula{
+    padding-top: 10%;
+    padding-left: 5%;
+    display: flex;
+    width: 90%;
+}
+.ubicacion{
+    float: inherit;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.icono2{
+    float: left;
+    width: 15%;
+    height: 20%;
+    border: 1px solid #f7e8e8;
+    box-sizing: border-box;
+    border-radius: 44px;
+}
+
+.descripcionTitulo2{
+    letter-spacing: 0rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-left: 25%;
+    padding-right: 15%;
+    padding-top: 0%;
+    color: white;
+}
+.descripcion2{
+    text-align: left;
+    color: white;
+    line-height: 0.1rem;
+    padding-right: 5%;
+    padding-left: 25%;}
+
+@media (min-width:767px){    
+    .image{
+        width: 65px;
+      }
+      
+    .image-title{
+        font-size: 40px;
+      }
+    .video{
+        display: contents;
+        width: 90%;
+        height: 80%;   
+    }
+    #lugar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding-left: 5%;
+    }
+}
+

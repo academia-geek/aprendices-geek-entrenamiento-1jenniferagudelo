@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../styles/nuevo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/formstyle.css">
+    <title>Formulario Registro</title>
 </head>
+<header class="header">
+    <div class="container-image">
+        <a href="../index.html">
+            <img class="image" src="../images/icon2.png" alt="">
+        </a>
+            <h1 class="image-title">VideoTube</h1>
+    </div>
+</header>
+
 <body>
-        <header id="Cabeza">
-                <img src="../images/Frame 13.png" class="logo">
-            </header>           
-    <main class="Formulario1">
-       <form action="" id="nuevoContenido">
-           <input id="info" type="text" placeholder="Nombra el vídeo">
-           <input id="info1" type="text" placeholder="Nombra al creador del contedino">
-           <input id="info2" type="number" placeholder="Indicanos sus visualizaciones">
-           <input id="info3" type="date" placeholder="">
-           <input id="info4" type="text" placeholder="Coloca la imagen del vídeo">
-           <input id="info5" type="text" placeholder="Indicanos la categoria">
-           <button  type="submit" id="btnFormulario">Colocar video en línea</button>
-       </form>
-         
-    </main>
-    
+    <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <form id="formulario">
+        <input class="controls" type="text" id="categoria" placeholder="Ingrese la categoria">
+        <input class="controls" type="text" id="video" placeholder="Ingrese la imagen del video ">
+        <input class="controls" type="text" id="usuario" placeholder="Ingrese el nombre de usuario">
+        <input class="controls" type="text" id="titulo" placeholder="Ingrese el titulo del video">
+        <input class="controls" type="text" id="canal" placeholder="Ingrese el nombre del canal">
+        <input class="controls" type="text" id="vistas" placeholder="Ingrese el numero de visitas">
+        <input class="controls" type="text" id="fecha" placeholder="Ingrese la fecha de creacion">
+        <input class="botons" type="submit" value="INSERTAR VIDEO">
+    </form>
+    </section>
+<script src="../scripts/forms.js" type="module"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>

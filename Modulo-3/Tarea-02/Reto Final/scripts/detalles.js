@@ -1,12 +1,12 @@
 export function colocar(info, videos){
     info.innerHTML =''
     videos.forEach((value) => {
-        const {usuario,nombre,canal,vistas,fecha,icono} = value
+        const {usuario,nombre,canal,vistas,fecha,icono,id} = value
         info.innerHTML += `
         <div>
             <div class="video">
-                    <a>
-                    <img id="cover" src="${usuario}">        
+                    <a href= ../pages/video.html>
+                    <img class= "insertar" id="${id}"src="${usuario}">        
                     </a>
                 </div> 
                 <div class="posicion">

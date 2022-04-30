@@ -9,44 +9,24 @@ body {
     box-sizing: border-box;
 }
 
-.logo {
-    position: absolute;
-    left: 5%;
-    top: 2%;
-    width: 45%;
-}
-
-/* #btn{
-    width: 30%;
-    padding: 3%;
-    border-radius: 10px;
-    padding-top: 4%;
-    padding-left: 55%;
-}
-
-.buscador{
-    margin: 0 auto;
-    border-radius: 10px;
-    border: 1px solid #181818;
-    width: 75%;
-    padding-left: 5%;
-} */
-
-/* #btn1{
-    background-color: #373737;
-    width: 20%;
-    padding: 3%;
-    border-radius: 10px;
-    padding-top: -25px;
-    padding: left 90px;%;}
-
-.btn{
-    padding-left: 5%;
-    width: 0%;
-    height: 0%;
-} */
-
-
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.image{
+    width: 50px;
+    background-color: #181818;
+  }
+  
+.image-title{
+    font-size: 20px;
+    font-style: revert;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+  }
 button{
     padding: 5px;
     color: white;
@@ -54,49 +34,36 @@ button{
     border-radius: 10px ;
     border-color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 70%;
+    font-size: 55%;
     text-align: center;
 }
 .boton{
-    padding-top: 15%;
+    padding: auto;
 }
-.boton1{
-    width: 18%;
+.botones{
+    width: 23.7%;
     height: 4%;
-    left: 3%;
-    top: 6%;
-    
-}
-.boton2{
-    width: 21%;
-    height: 4%;
-    left: 20%;
-    top: 6%;
-}
-.boton3{
-    width: 31%;
-    height: 4%;
-    left: 44%;
-    top: 6%;
-}
-.boton4{
-    width: 25%;
-    height:4%;
-    left: 72%;
-    top: 6%;
+    left: 0%;
+    top: 0%;
 }
 
 .video{
-    width: 85%;
+    position: inherit;
+    width: 75%;
     height: 80%;
-    padding-left: 14%;
-    padding-right: 14%;
+    padding-left: 11%;
+    padding-right: 3%;
     
 }
+
+.insertar{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
 #cover{
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-top: 5%;
     color: white;
     width: 85%;
 }
@@ -138,41 +105,69 @@ button{
     width: 100%;
     height: 100px;
 }
-/* @media (min-width:565px){ */
-    /* .video{
-        float: left;
-        display: table;
-        width: 30%;
-        padding-left: 20%;
-        padding-right: 20%;
-   }
-   .posicion{
-       display: table;
-       padding-left: 30%;
-       padding-top: 0%;
+ @media (min-width:767px){
+    .image{
+        width: 60px;
     }
-
-    .icono{
-        float: left;
-        display: table;
-        width: 40%;
-    }
-    .descripcionTitulo{
-        letter-spacing: 0rem;
-        font-size: 1rem;
-        line-height: 1rem;
-        padding-left: 20%;
-        padding-right: 15%;
-        padding-top: 0%;
-        color: white;
-        
-    } */
     
-    /* .descripcion{
-        color: white;
-        line-height: 0.3rem;
-        text-align: center;
-        padding-right: 0.5%;
-        padding-left: 0.5%;
+    .image-title{
+        font-size: 30px;
     }
-} */
+    button{
+        margin-left: 0.7%;
+    }
+    .video{
+        display: contents;
+        justify-content: center;
+        align-items: center;
+    }
+    #cover{
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 5%;
+    }
+    
+    .posicion{
+        padding-left: 5%;
+    }
+    
+    .icono{
+        width: 15%;
+    }
+    
+    .descripcionTitulo{
+        padding-left: 20%;
+        padding-right: 5%;
+    }
+    
+    .descripcion{
+        padding-top: 0.1%;
+    }
+    
+    .container{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-gap: 5px
+    }
+ }
+
+ @media (min-width:1440px){
+    .container-image{
+        justify-content: left;
+    }
+    .image{
+        width: 90px;
+    } 
+    .image-title{
+        font-size: 50px;
+    }
+    button{
+        font-size: 100%;
+        text-align: center;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 5px
+     }
+ }
