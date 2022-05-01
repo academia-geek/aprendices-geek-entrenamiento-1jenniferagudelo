@@ -82,4 +82,106 @@ body {
   margin: 16px 0;
   font-size: 16px;
 }
+
+.form-register #boton {
+  width: 80%;
+  background: #1b2336;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  margin-left: 10%;
+}
  
+@media (min-width:0px){  
+  .image{
+    width: 60px;
+  }
+  
+  .image-title{
+    font-size: 40px;
+  }
+  
+  .form-register {
+    position: static;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 270px;
+  }
+  
+  .controls {
+    font-size: 10px;
+  }
+  
+  .form-register .botons {
+    font-size: 10px;
+  }
+  
+  .form-register #boton {
+    margin: 10px 0;
+    font-size: 10px;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width:760px){
+  .image{
+    width: 70px;
+  }
+  
+  .image-title{
+    font-size: 50px;
+  }
+  
+  .form-register {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 320px;
+  }
+  
+  .controls {
+    font-size: 15px;
+  }
+  
+  .form-register .botons {
+    font-size: 12px;
+  }
+  
+  .form-register #boton {
+    margin: 10px 0;
+    font-size: 12px;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width:1020px){
+.image{
+  width: 80px;
+}
+
+.image-title{
+  font-size: 50px;
+}
+
+.form-register {
+  position: static;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  width: 400px;
+}
+
+.controls {
+  font-size: 18px;
+}
+
+.form-register .botons {
+  font-size: 16px;
+}
+
+.form-register #boton {
+  margin: 10px 0;
+  font-size: 14px;
+  margin-left: 10%;
+}
+}

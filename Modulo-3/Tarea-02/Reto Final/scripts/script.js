@@ -1,5 +1,6 @@
 import{ videos }from "./data.js";
 import{ colocar }from"./detalles.js";
+// import { agregar } from "./agregando.js";
 
 const principal = document.getElementById('contenedor')
 
@@ -12,7 +13,7 @@ colocar(principal, videos)
 
 const extraer = localStorage.getItem('insertar')
 
-// console.log (`hi${insertar}`)
+console.log (`hi${insertar}`)
 
 document.addEventListener('click',({target}) =>{
     if(target.classList.contains('botones')){
@@ -33,10 +34,16 @@ document.addEventListener('click',({target}) =>{
         const posicionVideo = videos.indexOf(buscarVideo); 
         localStorage.setItem('buscarVideo', posicionVideo );
         localStorage.setItem('videoSubido', JSON.stringify(buscarVideo));
+        
     }
+    // else if(target.classList.contains('coloca')){ 
+    //     const colocacion = target.id
+    //     // console.log(colocacion)
+    //     let imponer = videos.find(colorear => colorear.id == colocacion);
+    //     console.log(imponer);
+        
+    //     const colocacionVideo = videos.indexOf(imponer); 
+    //     localStorage.setItem('imponer', colocacionVideo );
+    //     localStorage.setItem('videoColocados', JSON.stringify(imponer));
+    // }
 })
-
-
-
-
-

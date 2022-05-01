@@ -27,15 +27,17 @@ form.onsubmit = (e)=>{
         inicio: "todo" ,
         categoria: uno ,
         usuario:dos ,
-        icono:"../iconos/destripando.jpg",
+        icono:"../iconos/charli.jpg",
         nombre:cuatro,
         canal:cinco,
         vistas:seis,
         fecha:siete,
     }
     localStorage.setItem('insertar', JSON.stringify(llenar)) 
-        }
-        
 
-    
-    
+    const botonBorrar = document.getElementById('boton');
+       botonBorrar.addEventListener('click', function(){
+       location.reload();})
+
+        }
+

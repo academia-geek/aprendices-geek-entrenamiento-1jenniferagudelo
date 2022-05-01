@@ -369,5 +369,4 @@ export let videos = [
                 vistas: "111.953 visualizaciones",
                 fecha:"8 ago 2021",
             },
-            
 ]
