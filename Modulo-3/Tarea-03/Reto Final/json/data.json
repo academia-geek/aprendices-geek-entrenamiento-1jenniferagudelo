@@ -1,0 +1,244 @@
+{
+  "Todos": [
+    {
+      "id": 1,
+      "all": "todos",
+      "tipo": "Clasica",
+      "imagen": "../images/tipo-de-guitarra-clasica.jpg",
+      "color": "Abeto",
+      "precio": "500000"
+    },
+    {
+      "id": 2,
+      "all": "todos",
+      "tipo": "Flamenca",
+      "imagen": "../images/tipo-de-guitarra-flamenca.jpg",
+      "color": "Abeto",
+      "precio": "700000"
+    },
+    {
+      "id": 3,
+      "all": "todos",
+      "tipo": "Rusa",
+      "imagen": "../images/tipo-de-guitarra-rusa.jpg",
+      "color": "Abeto",
+      "precio": "600000"
+    },
+    {
+      "id": 4,
+      "all": "todos",
+      "tipo": "Acustica",
+      "imagen": "../images/tipo-de-guitarra-acustica.jpg",
+      "color": "Abeto",
+      "precio": "250000"
+    },
+    {
+      "id": 5,
+      "all": "todos",
+      "tipo": "Electroacustica",
+      "imagen": "../images/tipo-de-guitarra-electroacustica.jpg",
+      "color": "Abeto",
+      "precio": "800000"
+    },
+    {
+      "id": 6,
+      "all": "todos",
+      "tipo": "Electrica",
+      "imagen": "../images/tipo-de-guitarra-electrica.jpg",
+      "color": "Abeto",
+      "precio": "1250000"
+    },
+    {
+      "id": 7,
+      "all": "todos",
+      "tipo": "Italiana",
+      "imagen": "../images/tipo-de-guitarra-italiana.jpg",
+      "color": "Abeto",
+      "precio": "850000"
+    },
+    {
+      "id": 8,
+      "all": "todos",
+      "tipo": "Renacentista",
+      "imagen": "../images/tipo-de-guitarra-renacentista.jpg",
+      "color": "Abeto",
+      "precio": "950000"
+    },
+    {
+      "id": 9,
+      "all": "todos",
+      "tipo": "Barroca",
+      "imagen": "../images/tipo-de-guitarra-barroca.jpg",
+      "color": "Abeto",
+      "precio": "750000"
+    },
+    {
+      "id": 10,
+      "all": "todos",
+      "tipo": "Moderno",
+      "imagen": "../images/tipo-de-guitarra-moderna.jpg",
+      "color": "Morada",
+      "precio": "1500000"
+    },
+    {
+      "id": 11,
+      "all": "todos",
+      "tipo": "Clasica",
+      "imagen": "../images/sigma-00mse-e1615500726753.png",
+      "color": "Wendigo",
+      "precio": "500000"
+    },
+    {
+      "id": 12,
+      "all": "todos",
+      "tipo": "Flamenca",
+      "imagen": "../images/flamenca.jpg",
+      "color": "Blanca",
+      "precio": "600000"
+    },
+    {
+      "id": 13,
+      "all": "todos",
+      "tipo": "Rusa",
+      "imagen": "../images/rusa2.jpg",
+      "color": "Wendigo",
+      "precio": "400000"
+    },
+    {
+      "id": 14,
+      "all": "todos",
+      "tipo": "Acustica",
+      "imagen": "../images/parlor.png",
+      "color": "Abeto",
+      "precio": "250000"
+    },
+    {
+      "id": 15,
+      "all": "todos",
+      "tipo": "Electroacustica",
+      "imagen": "../images/electrocustica.jpg",
+      "color": "Wendigo",
+      "precio": "1000000"
+    },
+    {
+      "id": 16,
+      "all": "todos",
+      "tipo": "Electrica",
+      "imagen": "../images/cuales-son-las-clases-de-guitarras-que-existen-Fender-1024x332.png",
+      "color": "Abeto",
+      "precio": "1500000"
+    },
+    {
+      "id": 17,
+      "all": "todos",
+      "tipo": "Italiana",
+      "imagen": "../images/Guitarra-italiana.png",
+      "color": "Abeto",
+      "precio": "2000000"
+    },
+    {
+      "id": 18,
+      "all": "todos",
+      "tipo": "Renacentista",
+      "imagen": "../images/stock-photo-renaissance-guitar-16th-century.jpg",
+      "color": "Abeto",
+      "precio": "1800000"
+    },
+    {
+      "id": 19,
+      "all": "todos",
+      "tipo": "Barroca",
+      "imagen": "../images/tipo-de-guitarra-barroca (1).jpg",
+      "color": "Abeto",
+      "precio": "600000"
+    },
+    {
+      "id": 20,
+      "all": "todos",
+      "tipo": "Moderno",
+      "imagen": "../images/modernas.png",
+      "color": "blanca",
+      "precio": "450000"
+    },
+    {
+      "id": 21,
+      "all": "todos",
+      "tipo": "Clasica",
+      "imagen": "../images/guitarra-clásica-negra-108305475.jpg",
+      "color": "Negro",
+      "precio": "550000"
+    },
+    {
+      "id": 22,
+      "all": "todos",
+      "tipo": "Flamenca",
+      "imagen": "../images/alhambra-3fp-guitarra-flamenca (1).jpg",
+      "color": "Wendigo",
+      "precio": "750000"
+    },
+    {
+      "id": 23,
+      "all": "todos",
+      "tipo": "Rusa",
+      "imagen": "../images/rusa.jpg",
+      "color": "Abeto",
+      "precio": "350000"
+    },
+    {
+      "id": 24,
+      "all": "todos",
+      "tipo": "Acustica",
+      "imagen": "../images/acustica_.jpg",
+      "color": "Abeto",
+      "precio": "400000"
+    },
+    {
+      "id": 25,
+      "all": "todos",
+      "tipo": "Electroacustica",
+      "imagen": "../images/electroacustica2.png",
+      "color": "Blanca",
+      "precio": "1250000"
+    },
+    {
+      "id": 26,
+      "all": "todos",
+      "tipo": "Electrica",
+      "imagen": "../images/08c399c-fender_squire-1024x339.png",
+      "color": "negra",
+      "precio": "1100000"
+    },
+    {
+      "id": 27,
+      "all": "todos",
+      "tipo": "Italiana",
+      "imagen": "../images/italiana.jpg",
+      "color": "Abeto",
+      "precio": "900000"
+    },
+    {
+      "id": 28,
+      "all": "todos",
+      "tipo": "Renacentista",
+      "imagen": "../images/renacentista.jpg",
+      "color": "Blanca",
+      "precio": "1750000"
+    },
+    {
+      "id": 29,
+      "all": "todos",
+      "tipo": "Barroca",
+      "imagen": "../images/barroca.jpg",
+      "color": "Abeto",
+      "precio": "800000"
+    },
+    {
+      "id": 30,
+      "all": "todos",
+      "tipo": "Moderno",
+      "imagen": "../images/moderna.png",
+      "color": "Negra",
+      "precio": "500000"
+    }
+  ]
+}

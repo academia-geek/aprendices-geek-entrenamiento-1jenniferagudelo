@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+/* font-family: 'Oleo Script Swash Caps', cursive;*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    text-align: center;
+}
+.opciones{
+    float: right;
+    padding-top: 1px;
+    display: block;
+}
+.opciones li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    font-size: 200%;
+    color: white;
+}
+.fondo{
+    background-image: url(../images//guitarras-principiante-1024x683.jpg);
+    padding-top: 48%;
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    height: 0vh;
+}
+.subtitulo{
+    text-align: center;
+    margin-bottom: 1%;
+}
+#imagen{
+    margin-left: 27%;
+    width: 45%;
+    border-radius: 3%;
+    border: 2px solid #d48888;
+}
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(226, 95, 95, 0.3);
+    margin-top: 29%;
+    padding: 1%;
+  }
+  
+.image{
+    align-items: center;
+    width: 45px;
+  }
+
+
